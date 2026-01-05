@@ -35,6 +35,11 @@ Each training sample consists of:
 
 ---
 
+## System Specification
+I have used the following Hardware and GPU resources for Fine-tuning. 
+- Nvidia RTX 2060 super 
+- RAM 16GB 
+
 ## Training
 
 The model is fine-tuned using QLoRA adapters while keeping the base model weights frozen.  
@@ -51,8 +56,3 @@ Each entry contains a `user` message with text and image content, followed by an
 
 ---
 
-## System Specification
-I have used the following Hardware and GPU resources for Fine-tuning. 
-- Nvidia RTX 2060 super 
-- RAM 16GB 
-- 
