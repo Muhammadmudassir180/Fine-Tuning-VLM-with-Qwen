@@ -1,6 +1,6 @@
-# Vision–Language Model Fine-Tuning for Medical Image Question Answering
+# Vision–Language Model Fine-Tuning for Visual Question Answering
 
-This repository contains the implementation of instruction fine-tuning a **Vision–Language Model (VLM)** on a custom medical imaging dataset using **QLoRA**. The work focuses on multimodal multiple-choice question answering for medical images such as echocardiography and CT scans.
+This repository contains the implementation of instruction fine-tuning a **Vision–Language Model (VLM)** on a custom dataset using **QLoRA**. The work focuses on multimodal multiple-choice question answering on downstream task.
 
 ---
 
@@ -13,7 +13,7 @@ This repository contains the implementation of instruction fine-tuning a **Visio
 - **Dataset Format:** JSONL (multimodal chat-style)
 
 Each training sample consists of:
-- A medical image
+- A image
 - A structured instruction and question with multiple options
 - A single ground-truth answer
 
@@ -51,4 +51,8 @@ Each entry contains a `user` message with text and image content, followed by an
 
 ---
 
-
+## System Specification
+I have used the following Hardware and GPU resources for Fine-tuning. 
+- Nvidia RTX 2060 super 
+- RAM 16GB 
+- 
