@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 # MODEL_PATH = r"C:\Users\Hey-BUDD\Desktop\Deep Learining Project\Datasets\RadFig-VQA\Qwen_25_VL_Finetuned_RadFig"     
 MODEL_PATH="unsloth/Qwen2.5-VL-3B-Instruct-bnb-4bit"
-TEST_FILE = r"C:\Users\Hey-BUDD\Desktop\Deep Learining Project\Datasets\RadFig-VQA\eval_data.jsonl"
+TEST_FILE = r"path to\your\test_file.jsonl"  # Update with your test file path
 
 
 
